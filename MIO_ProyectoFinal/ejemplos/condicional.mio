@@ -1,0 +1,14 @@
+# Prueba de SI, SINO, REPITE y numeros hexadecimales
+PROGRAMA prueba
+LEE Numero
+SI Numero < 0xA3 ENTONCES
+    IMPRIME "Es menor"
+SINO
+    REPITE 0x2 VECES
+        IMPRIME Numero
+    FINREP
+FINSI
+SI Numero == 0xF ENTONCES
+    Numero = Numero / 0x2
+FINSI
+FINPROG

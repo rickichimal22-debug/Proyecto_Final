@@ -1,0 +1,4 @@
+PROGRAMA demo
+SI X < 0xA ENTONCES
+    IMPRIME "hola"
+FINPROG

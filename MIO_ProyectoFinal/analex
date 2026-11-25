@@ -1,0 +1,4 @@
+#!/bin/sh
+cd "$(dirname "$0")" || exit 1
+javac -encoding UTF-8 Analex.java Anasin.java || exit 1
+java Analex "$@"
